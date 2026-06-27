@@ -21,12 +21,12 @@ I work at the intersection of RNA biology and scientific computing: turning raw 
 
 #### Completed
 
-**scRNA-seq foundation models vs. a simple baseline — do they actually win?**
+**scRNA-seq foundation models vs. a simple baseline: do they actually win?**
 Benchmarked a fine-tuned Geneformer foundation model against a classical PCA + logistic-regression baseline for cell-type annotation on human yolk-sac scRNA-seq data. The simple baseline matched or beat the foundation model (macro-F1 0.93 vs. 0.85), with the gap traced to rare, biologically similar progenitor populations — independently reproducing recent published benchmarks. Built as a reproducible HPC pipeline: stratified data handling, GPU fine-tuning via SLURM (H200/V100), integrity-checked evaluation, UMAP + confusion-matrix visualizations, and a containerized (Apptainer) environment for one-command reproduction.
 `Python` · `PyTorch` · `Geneformer` · `scanpy` · `SLURM` · `Apptainer`
 
 **Epileptic seizure prediction — deep neural network on EEG**
-A deep neural network that detects epileptic seizures from raw EEG signals, benchmarked against a K-Nearest-Neighbors baseline to test whether the added model complexity actually earns its keep. Full pipeline in notebooks — EEG preprocessing, augmentation, training, and evaluation — built to be opened and re-run, not just read about.
+A deep neural network that detects epileptic seizures from raw EEG signals, benchmarked against a K-Nearest-Neighbors baseline to test whether the added model complexity actually earns its keep. Full pipeline in notebooks — EEG preprocessing, augmentation, training, and evaluation built to be opened and re-run, not just read about.
 `Python` · `TensorFlow` · `scikit-learn` · `EEG` · `Jupyter`
 
 #### In progress
